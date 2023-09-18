@@ -1,0 +1,38 @@
+.section {
+    background-color: #e3e3e8;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h1 {
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon i {
+    font-size: 30px;
+}
+.icon i:hover {
+    cursor: pointer;
+}

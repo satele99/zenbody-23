@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Services from './components/Services';
-import Contect from './components/Contact';
 import About from './components/About';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Slider/>
       <About/>
       <Services/>
-      <Contect/>
+      <Footer/>
     </div>
   );
 }
