@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,300;0,500;0,700;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333333;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.logo {
+    margin: 0 15px;
+}
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    font-weight: 580;
+    margin: 0 15px;
+}
+
+.nav_links > li:hover {
+    cursor: pointer;
+    color: #b071c9;
+}
