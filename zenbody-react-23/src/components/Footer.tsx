@@ -18,7 +18,7 @@ export default function Footer(){
                     <button type='submit'>Submit</button>
                 </form>
            </div>
-           
+           <p>©2023 by Cardinal Design, LLC</p>
         </footer>
     )
 }

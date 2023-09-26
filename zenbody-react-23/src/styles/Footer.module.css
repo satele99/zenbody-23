@@ -16,6 +16,7 @@
 .content {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
     width: 90%;
 }
 .icon {
@@ -35,4 +36,23 @@
 }
 .icon i:hover {
     cursor: pointer;
+}
+
+.form input {
+    /* min-width: 40%; */
+    max-width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form button {
+    margin-top: 7px;
+    min-width: 99%;
+    max-width: 100%;
+    font-weight: bold;
+    border: transparent;
+    background-color: #b071c9;
+    padding: 7px;
+    border-radius: 3px;
 }
